@@ -1,0 +1,325 @@
+
+.primary {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.secondary {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title {
+    font-size: 96px;
+    letter-spacing: 25px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.name {
+    color: #1F2937; 
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 60px;
+    height: 512px;
+}
+
+.social-m {
+    color: #4285F4; 
+    font-size: 18px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-top: 30px;
+    padding-right: 60px;
+    height: 512px;
+}
+
+.ex-location {
+    font-size: 18px;
+    padding-top: 20px;
+    color: #E5E7EB;
+}
+.ex-company {
+    font-size: 18px;
+    padding-top: 20px;
+    color: #7110D9;
+}
+
+.extra-ir {
+    margin-right: 30px;
+}
+
+.profil-pic {
+    margin: 20px 0px;
+
+    background-image: url('./images/profile_pic.png');
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.main {
+    background: linear-gradient(120deg, #F9FAFB 0%, #949495 100%);
+
+}
+body {
+    background: linear-gradient(180deg, #F9FAFB 60%, #949495 100%);
+
+}
+#linkdin {
+    padding-top: 10px; 
+    transform: rotate(180deg);
+}
+
+#devops {
+    padding-top: 8px; 
+    padding-right: 5px;
+    
+}
+#location {
+    height: 18px;
+}
+
+/* skills */
+
+.skills {
+    height: 560px;
+    
+}
+
+.skills > .row {
+    height: 100%;
+    align-items: center;
+  }
+  
+.skills-c2 > h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.skills-c2 > p {
+    font-size: 16px;
+}
+
+/* Education */
+.card-p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B7280;
+}
+.card-h {
+    font-size: 20px;
+    font-weight: 400;
+    color: #111827;
+}
+.ed-c {
+    padding: 10px 0px 10px 0px;
+}
+
+/* Experience  */
+.exp {
+    height: 730px;
+}
+
+.exp h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+#octopus {
+    height: 50px;
+    margin-bottom: 10px;
+}
+.exp h5 {
+    font-size: 20px;
+}
+.exp-d1 {
+    padding-top: 10px;
+}
+.exp-d2 {
+    padding-top: 60px;
+}
+#green-line {
+    padding-top: 130px;
+}
+#journey {
+    height: 400px;
+    padding-left: 120px;
+}
+
+#present {
+    color: #065E41 !important;
+}
+#foot {
+    height: 60px;
+    background-color: #0D1322;
+}
+#foot-myname {
+    padding-top: 10px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 48px;
+        letter-spacing: 15px;
+        font-weight: 200;
+        color: #1F2937;
+    }
+    
+    .social-m {
+        height: 380px;
+        padding-right: 30px;
+
+    }
+    .name {
+        height: 380px;
+        font-size: 14px;
+        padding-left: 30px;
+    }
+    .profil-pic {
+        height: 720px;
+        
+    }
+
+    #devops {
+        padding-top: 5px;
+        height: 15px;
+        padding-right: 10px;
+    }
+
+    /* Experience */
+    #journey {
+        height: 300px;
+        padding-left: 60px;
+    }
+    #green-line {
+        padding-top: 150px;
+    
+    }
+    .exp-d2 {
+        padding-top: 20px;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .name {
+        height: 50px;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .title {
+        font-size: 92px;
+        letter-spacing: 15px;
+        font-weight: 300;
+        color: #1F2937;
+        
+    }
+    .devops-name {
+        justify-content: center !important;
+        align-items: center !important;
+        padding-top: 30px;
+    }
+    .social-m {
+        color: #4285F4; 
+        font-size: 18px;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        height: 20px;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0px;
+
+    }
+    #linkdin { 
+        transform: rotate(90deg);
+        height: 20px;
+        padding: 0px;
+        
+    }
+    .profil-pic {
+        height: 540px;
+        
+    }
+    #myname {
+        padding-left: 10px;
+    }
+    #devops {
+        height: 17px;
+    }
+
+
+    .skills {
+        height: 860px; 
+    }   
+    .skills-c2 > h2 {
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .skills-c2 > p {
+        font-size: 16px;
+        /* width: 400px; */
+        padding: 0px 20px;
+        text-align:justify
+    }
+
+    .skills-c1 {
+        padding: 30px 0px;
+    }
+
+    /* Education  */
+    .card-p {
+        font-size: 12px;
+        font-weight: 500;
+        color: #6B7280;
+    }
+    .card-h {
+        font-size: 16px;
+        font-weight: 400;
+        color: #111827;
+    }
+    /* Experience */
+    .exp-d2 {
+        padding-top: 60px;
+    }
+    #green-line {
+        padding-top: 300px;
+    
+    }
+    #journey {
+        height: 200px;
+        padding-left: 120px;
+        display: none;
+    }
+    .ex-r1, .ex-r2 {
+
+        text-align: center !important;
+        padding: 0px;
+        margin: 0px;
+    }
+    #green-line {
+        display: none;
+        padding-top: 200px;
+    
+    }
+    .exp-d1 {
+        padding-top: 30px;
+    }
+    .exp-d2 {
+        padding-top: 20px;
+    }
+    .ex-r2 {
+        padding-top: 30px;
+    }
+
+}
+
+  
